@@ -1,0 +1,45 @@
+{
+  "openevalz_version": 1,
+  "eval": {
+    "id": "aime2024",
+    "slug": "aime2024",
+    "title": "AIME 2024: Problems from the American Invitational Mathematics Examination",
+    "group": "Mathematics",
+    "tags": [],
+    "source": "core"
+  },
+  "upstream": {
+    "repo": "https://github.com/UKGovernmentBEIS/inspect_evals",
+    "path": "src/inspect_evals/aime2024",
+    "inspect_ai": "0.3.260",
+    "eval_version": "4-A",
+    "dependency": ""
+  },
+  "execution": {
+    "class": "plain",
+    "cost_class": "low",
+    "sandbox": null,
+    "requires_internet": false,
+    "fast": true,
+    "supports_k8s": false,
+    "environment": ""
+  },
+  "tasks": [
+    {
+      "name": "aime2024",
+      "samples": 30
+    }
+  ],
+  "total_samples": 30,
+  "external_assets": [
+    {
+      "type": "huggingface",
+      "source": "Maxwell-Jia/AIME_2024",
+      "state": "pinned"
+    }
+  ],
+  "scaffolds": [
+    "baseline"
+  ],
+  "generated": "2026-08-25"
+}
